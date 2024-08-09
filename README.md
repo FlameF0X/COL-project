@@ -1,5 +1,5 @@
 # COL-project (LLaMa API & OpenAI Client)
-COL-project is a Discrod chatbot powered by Jupyter Notebook/Google Colab, OpenAI Client and LLaMa API.
+COL-project aka Colab LLaMa is a Discrod chatbot powered by Jupyter Notebook/Google Colab, OpenAI Client and LLaMa API.
 
 # HOW TO SET UP THE BOT
 

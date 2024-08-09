@@ -1,2 +1,2 @@
 # COL-project
-A AI powered Discrod chatbot.
+COL-project is a Discrod chatbot powered by OpenAI Client and LLama API.

@@ -1,4 +1,4 @@
-# COL-project
+# COL-project (LLaMa API & OpenAI Client)
 COL-project is a Discrod chatbot powered by OpenAI Client and LLaMa API.
 
 # HOW TO SET UP THE BOT

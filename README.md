@@ -1,16 +1,21 @@
 # COL-project (LLaMa API & OpenAI Client)
-COL-project aka Colab LLaMa is a Discrod chatbot powered by Jupyter Notebook/Google Colab, OpenAI Client and LLaMa API.
+The COL-project, also known as Colab LLaMa, is a Discord chatbot powered by Jupyter Notebook/Google Colab, the OpenAI Client, and the LLaMa API.
 
-# HOW TO SET UP THE BOT
+## Setting Up the Bot
 
-1. Open https://discord.com/developers/applications , select / create a bot. In the ```SETTING```, go to ```Bod``` and enable ```Message Content Intent```.
-2. Grab your discord bot token.
-4. Use Jupyter Notebook (You have to install it.) or Google Colab (https://colab.research.google.com/) to run the code.
-5. Create a ```.ipynb``` file like ```name.ipynb``` or just leave like a ```.ipynb```.
-6. Add in the first code section the pip command ```!pip install discord.py transformers nest_asyncio openai```.
-7. Then go to ```COL-Script.ipynb``` and set the view from ```preview``` to ```code``` or just copy it directly and then add it under the ```!pip install...``` add another code section, there is going to be the place where you add the ```COL-Script.ipynb``` script.
-8. Replace the ```<YOUR_DISCORD_TOKEN>``` with your own discord bot token, ```<YOUR_LLAMA_API_KEY>``` with your own LLaMa API (To get your LLaMa API go to https://console.llama-api.com/account/api-token, create a account and grab your API), ```<YOUR_SERVER_ID>```with your discord server ID, ```<YOUR_CHANNEL_ID>``` with the ID of the channel where you want othe bot to work only and ```<YOUR_CHANNEL_LINK>``` to show where the bot can be use in case of someone using it outsite of your seated cahnnel. 
-9. To run the  ```.ipynb``` run the first code section to install ```discord.py transformers nest_asyncio openai```, wait for everything to be installed and thne run the second section where the main code is.
+1. Visit the [Discord Developer Portal](https://discord.com/developers/applications) and either select or create a new bot. In the `SETTINGS` section, go to `Bot` and enable the `Message Content Intent` option.
+2. Retrieve your Discord bot token.
+3. Use either [Jupyter Notebook](https://jupyter.org/install) (you'll need to install it) or [Google Colab](https://colab.research.google.com/) to run the code.
+4. Create a new `.ipynb` file (e.g., `name.ipynb`), or use the default naming convention.
+5. In the first code cell, add the following pip command: `!pip install discord.py transformers nest_asyncio openai`.
+6. Open the `COL-Script.ipynb` file and switch the view from `preview` to `code`. Alternatively, you can directly copy the script and paste it into the next code cell in your `.ipynb` file, after the `!pip install...` command.
+7. Replace the following placeholders in the script:
+   - `<YOUR_DISCORD_TOKEN>`: Your Discord bot token.
+   - `<YOUR_LLAMA_API_KEY>`: Your LLaMa API key. You can obtain this by creating an account at [LLaMa API Console](https://console.llama-api.com/account/api-token) and generating an API token.
+   - `<YOUR_SERVER_ID>`: Your Discord server ID.
+   - `<YOUR_CHANNEL_ID>`: The ID of the channel where you want the bot to operate exclusively.
+   - `<YOUR_CHANNEL_LINK>`: The link to the channel where the bot is intended to be used, in case it’s activated outside the specified channel.
+8. Run the first code cell to install the necessary dependencies (`discord.py`, `transformers`, `nest_asyncio`, and `openai`). Once installation is complete, run the second cell to execute the main code.
 
-# IMPORTANT NOTE:
-Google Colab shuts your code down after ~1.5 hours after you leave the tab. So if you have a laptop/pc that runs 24/7, use Jupyter.
+## Important Note
+Google Colab will automatically shut down your code after approximately 1.5 hours of inactivity. To avoid this, consider using Jupyter Notebook on a computer that runs continuously if you need long-term availability.

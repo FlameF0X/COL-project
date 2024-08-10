@@ -12,9 +12,6 @@ The COL-project, also known as Colab LLaMa, is a Discord chatbot powered by Jupy
 7. Replace the following placeholders in the script:
    - `<YOUR_DISCORD_TOKEN>`: Your Discord bot token.
    - `<YOUR_LLAMA_API_KEY>`: Your LLaMa API key. You can obtain this by creating an account at [LLaMa API Console](https://console.llama-api.com/account/api-token) and generating an API token.
-   - `<YOUR_SERVER_ID>`: Your Discord server ID.
-   - `<YOUR_CHANNEL_ID>`: The ID of the channel where you want the bot to operate exclusively.
-   - `<YOUR_CHANNEL_LINK>`: The link to the channel where the bot is intended to be used, in case it’s activated outside the specified channel.
 8. Run the first code cell to install the necessary dependencies (`discord.py`, `transformers`, `nest_asyncio`, and `openai`). Once installation is complete, run the second cell to execute the main code.
 
 ## Important Note

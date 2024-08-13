@@ -1,5 +1,5 @@
 # COL-project
-The COL-project is a Discord chatbot powered by Jupyter Notebook/Google Colab and microsoft/DialoGPT-medium.
+The COL-project is a Discord chatbot powered by Jupyter Notebook/Google Colab and `microsoft/DialoGPT-medium`.
 
 ## Setting Up the Bot
 

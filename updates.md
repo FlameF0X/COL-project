@@ -1,5 +1,8 @@
+# Version 1.0.6 🐞
+There's a small change to get a error. Trying to fix it.
+
 # Version 1.0.6 📓
-No more integration of Application Command.
+No more integration of Application Command.~
 
 # Version 1.0.5 ✔
 Removing the `ALLOWED_SERVER_ID` and `ALLOWED_CHANNEL_ID`.

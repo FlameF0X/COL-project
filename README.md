@@ -1,7 +1,7 @@
 # COL-project
 The COL-project is a Discord chatbot powered by Jupyter Notebook/Google Colab and `microsoft/DialoGPT-medium`.
 
-## Setting Up the Bot
+## Setting Up the Bot:
 
 1. Visit the [Discord Developer Portal](https://discord.com/developers/applications) and either select or create a new bot. In the `SETTINGS` section, go to `Bot` and enable the `Message Content Intent` option.
 2. Retrieve your Discord bot token.
@@ -15,3 +15,6 @@ The COL-project is a Discord chatbot powered by Jupyter Notebook/Google Colab an
 
 ## Important Note
 Google Colab will automatically shut down your code after approximately 1.5 hours of inactivity. To avoid this, consider using Jupyter Notebook on a computer that runs continuously if you need long-term availability.
+
+# How to use the bot in Discord:
+Type !chat YOUR_QUESTION

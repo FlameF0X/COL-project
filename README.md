@@ -16,5 +16,7 @@ The COL-project is a Discord chatbot powered by Jupyter Notebook/Google Colab an
 ## Important Note
 Google Colab will automatically shut down your code after approximately 1.5 hours of inactivity. To avoid this, consider using Jupyter Notebook on a computer that runs continuously if you need long-term availability.
 
-# How to use the bot in Discord:
+### ⚠ DO NOT REMOVE THE SOURCE CODE LINK: source_code_link = "-# [Source Code - GitHub](<https://github.com/FlameF0X/COL-project>)" ⚠
+
+## How to use the bot in Discord:
 Type !chat YOUR_QUESTION

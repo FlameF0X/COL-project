@@ -1,3 +1,6 @@
+# Version 1.0.7 (Minor Update)✔
+Adding: `source_code_link = "-# [Source Code - GitHub](<https://github.com/FlameF0X/COL-project>)"`
+
 # Version 1.0.7 ✔
 Moving from LLaMa and GPT-2 to microsoft/DialoGPT-medium
 

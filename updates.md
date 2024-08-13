@@ -1,3 +1,6 @@
+# Version 1.0.7 ✔
+Moving from LLaMa and GPT-2 to microsoft/DialoGPT-medium
+
 # Version 1.0.6 🐞
 There's a small change to get a error. Trying to fix it.
 

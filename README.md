@@ -20,3 +20,5 @@ Google Colab will automatically shut down your code after approximately 1.5 hour
 
 ## How to use the bot in Discord:
 Type !chat YOUR_QUESTION
+
+## Check our discord server to help us on our journey: [COL-Project](https://discord.gg/YpkVyg2Reu)

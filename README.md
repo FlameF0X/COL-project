@@ -1,11 +1,11 @@
 # COL-project
-The COL-project is a Discord chatbot powered by Jupyter Notebook/Google Colab and `microsoft/DialoGPT-medium`.
+The COL-project is a Discord chatbot powered by Jupyter Google Colab and `microsoft/DialoGPT-medium`.
 
 ## Setting Up the Bot:
 
 1. Visit the [Discord Developer Portal](https://discord.com/developers/applications) and either select or create a new bot. In the `SETTINGS` section, go to `Bot` and enable the `Message Content Intent` option.
 2. Retrieve your Discord bot token.
-3. Use either [Jupyter Notebook](https://jupyter.org/install) (you'll need to install it) or [Google Colab](https://colab.research.google.com/) to run the code.
+3. Use [Google Colab](https://colab.research.google.com/) to run the code.
 4. Create a new `.ipynb` file (e.g., `name.ipynb`), or use the default naming convention.
 5. In the first code cell, add the following pip command: `pip install discord.py transformers torch`.
 6. Open the `COL-Script.ipynb` file and switch the view from `preview` to `code`. Alternatively, you can directly copy the script and paste it into the next code cell in your `.ipynb` file, after the `!pip install...` command.

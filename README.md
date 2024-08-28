@@ -7,7 +7,7 @@ The COL-project is a Discord chatbot powered by Google Colab or Jupyter Notebook
 2. Retrieve your Discord bot token.
 3. Use either [Jupyter Notebook](https://jupyter.org/install) (you'll need to install it) or [Google Colab](https://colab.research.google.com/) to run the code.
 4. Create a new `.ipynb` file (e.g., `name.ipynb`), or use the default naming convention.
-5. In the first code cell, add the following pip command: `!pip install discord.py transformers nest_asyncio openai`.
+5. In the first code cell, add the following pip command: `!pip install discord.py transformers nest_asyncio`.
 6. Open the `COL-Script.ipynb` file and switch the view from `preview` to `code`. Alternatively, you can directly copy the script and paste it into the next code cell in your `.ipynb` file, after the `!pip install...` command.
 7. Replace the following placeholders in the script:
    - `<YOUR_DISCORD_TOKEN>`: Your Discord bot token.

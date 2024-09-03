@@ -1,24 +1,42 @@
 # COL-project
-The COL-project is a Discord chatbot powered by Google Colab or Jupyter Notebook and `microsoft/DialoGPT-large`.
+
+The COL-project is an open-source Discord chatbot powered by Google Colab or Jupyter Notebook and `microsoft/DialoGPT-large`.
 
 ## Setting Up the Bot
 
-1. Visit the [Discord Developer Portal](https://discord.com/developers/applications) and either select or create a new bot. In the `SETTINGS` section, go to `Bot` and enable the `Message Content Intent` option.
-2. Retrieve your Discord bot token.
-3. Use either [Jupyter Notebook](https://jupyter.org/install) (you'll need to install it) or [Google Colab](https://colab.research.google.com/) to run the code.
-4. Create a new `.ipynb` file (e.g., `name.ipynb`), or use the default naming convention.
-5. In the first code cell, add the following pip command: `!pip install discord.py transformers nest_asyncio`.
-6. Open the `COL-Script.ipynb` file and switch the view from `preview` to `code`. Alternatively, you can directly copy the script and paste it into the next code cell in your `.ipynb` file, after the `!pip install...` command.
-7. Replace the following placeholders in the script:
-   - `<YOUR_DISCORD_TOKEN>`: Your Discord bot token.
-8. Run the first code cell to install the necessary dependencies (`discord.py`, `transformers`, `nest_asyncio`, and `openai`). Once installation is complete, run the second cell to execute the main code.
+1. **Create a Discord Bot**
+   - Visit the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Select or create a new application.
+   - In the `SETTINGS` section, go to `Bot` and enable the `Message Content Intent` option.
+   - Retrieve your Discord bot token.
+
+2. **Prepare Your Environment**
+   - Use either [Jupyter Notebook](https://jupyter.org/install) or [Google Colab](https://colab.research.google.com/) to run the code.
+
+3. **Set Up the Project**
+   - Create a new `.ipynb` file (e.g., `name.ipynb`) or use the provided file.
+   - In the first code cell, add and run the following pip command:
+     ```python
+     !pip install discord.py transformers nest_asyncio
+     ```
+   - Open the `COL-Script.ipynb` file and switch the view from `preview` to `code`. Alternatively, copy the script from `COL-Script.ipynb` and paste it into the next code cell in your `.ipynb` file, after the `!pip install` command.
+
+4. **Configure the Bot**
+   - Replace the placeholder `<YOUR_DISCORD_TOKEN>` in the script with your Discord bot token.
+
+5. **Run the Code**
+   - Run the first code cell to install the necessary dependencies. Once installation is complete, run the second cell to execute the main code.
 
 ## Important Note
-Google Colab will automatically shut down your code after approximately 1.5 hours of inactivity. To avoid this, consider using Jupyter Notebook on a computer that runs continuously if you need long-term availability.
+
+Google Colab will automatically shut down your code after approximately 1.5 hours of inactivity. For long-term availability, consider using Jupyter Notebook on a continuously running computer.
 
 ### ⚠ DO NOT REMOVE THE SOURCE CODE LINK: `source_code_link = "-# [Source Code - GitHub](<https://github.com/FlameF0X/COL-project>)"` ⚠
 
-## How to use the bot in Discord:
-Type !chat YOUR_QUESTION
+## How to Use the Bot
 
-## Check our discord server to help us on our journey: [COL-Project](https://discord.gg/YpkVyg2Reu)
+In Discord, type `!chat YOUR_QUESTION` to interact with the bot.
+
+## Community
+
+Join our [Discord server](https://discord.gg/YpkVyg2Reu) to collaborate and support the project.

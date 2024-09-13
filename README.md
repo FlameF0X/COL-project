@@ -1,6 +1,6 @@
 # COL-project
 
-The COL-project is an open-source Discord chatbot powered by Google Colab or Jupyter Notebook and `microsoft/DialoGPT-large`.
+The COL-project is an open-source Discord chatbot powered by Notebook/Python and `microsoft/DialoGPT-large`.
 
 ## Setting Up the Bot
 

@@ -1,5 +1,8 @@
 # Update Log
 
+## Version 1.0.8 🐞
+- **Fix**: Removing `chat_history_ids` because of some technical issues 
+
 ## Version 1.0.8 ✔
 - **Model Update**: Changed the model from `microsoft/DialoGPT-medium` to `microsoft/DialoGPT-large`.
 - **Token Management**: Increased token memory to 1000 tokens.

@@ -37,8 +37,6 @@ The COL-project LLaMa is an open-source Discord chatbot powered by LLaMa API and
 
 Google Colab will automatically shut down your code after approximately 1.5 hours of inactivity. For long-term availability, consider using Jupyter Notebook on a continuously running computer.
 
-### ⚠ DO NOT REMOVE THE SOURCE CODE LINK: `source_code_link = "-# [Source Code - GitHub](<https://github.com/FlameF0X/COL-project>)"` ⚠
-
 ## How to Use the Bot
 
 In Discord, type `@BOT_NAME YOUR_QUESTION` to interact with the bot.
